@@ -1,0 +1,59 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  padding: 8px;
+  color: #f9faf8;
+  background-color: #1f2937;
+  font-size: 24px;
+}
+
+.footer {
+  color: #f9faf8;
+  background-color: #1f2937;
+  padding: 8px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  gap: 16px;
+  background: #e5e7eb;
+}
+
+.grid-content {
+  flex-grow: 1;
+  background: rgb(144, 162, 184);
+  justify-content: center;
+  align-items: center;
+}
+
+.sketch-pad {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  height: 400px;
+  width: 400px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.box {
+  border: 1px solid rgb(6, 27, 49);
+  flex-grow: 1;
+  align-self: stretch;
+  flex-basis: calc((100% / 3) - 10px);
+}
